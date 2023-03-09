@@ -1,0 +1,124 @@
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+/* head */
+#head{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.head-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.head-logo{
+    display: flex;
+    justify-content: space-around;
+}
+.head-right{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#input{
+    border-radius: 5%;
+    border: 2px solid rgba(14, 10, 10, 0.3);
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+    margin-top: 10px;
+    height: 35px;
+}
+/* banner */
+#banner{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+.text-banner{
+    font-size: 50px;    
+    position: absolute;
+    bottom: 150px;
+    left: 170px;
+}
+.text{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*  */
+#sort{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#sort-left{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+#sort-right{
+    display: flex;
+    justify-content: space-around;
+}
+.slc{
+    height: 33px;
+    color: green;
+}
+/*  */
+#product1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#product2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#product3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#number{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#num{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    
+}
+/*  */
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(29,33,40);
+    height: 300px;
+    width: 100%;
+    
+}
+#footer-left{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    
+}
+#footer-right{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer-right-ds, .footer-left-ds, .social{
+    color: rgb(220,223,228);
+}
