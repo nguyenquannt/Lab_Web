@@ -25,7 +25,6 @@
 .head-right{
     display: flex;
     justify-content: space-around;
-    
 }
 #input{
     border-radius: 5%;
@@ -41,7 +40,6 @@
     width: 100%;
     margin-top: 15px;
     position: relative;
-
 }
 .banner-title{
     font-size: 65px;
@@ -57,38 +55,60 @@
     left:10%;
     color: rgb(130,125,122);
 }
-
-/* .text-banner-title{
-    font-size: large;
-} */
-/* .text{
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-} */
-/*  */
+/* sort */
 #sort{
+    /* margin-top: 10px; */
+    padding-top: 40px;
     display: flex;
     justify-content: space-around;
     width: 100%;
+    background-color:white;
 }
 #sort-left{
     display: flex;
-    justify-content: space-around;
-    width: 20%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+.sort-left-ds{
+    color: rgb(69,157,122);
+    text-decoration: none;
+    height: 50px;
+    width: 180px;
+    /* bỏ dấu gạch chân */
+    font-size: 20px;
+}
+.sort-left-ds:hover{
+    color: white;
+    background-color: rgb(69,157,122);
+    height: 50px;
+    width: 180px;
+    border-radius: 5%;
 }
 #sort-right{
     display: flex;
     justify-content: space-around;
+    width: 20%;
 }
-.slc{
-    height: 33px;
-    color: green;
+#text-sort-right{
+    border-radius: 5%;
+    border: 2px solid rgba(14, 10, 10, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
 }
-/*  */
+.button{
+    width: 100px;
+    font-size: 17px;
+    border-radius: 5%;
+    border: 2px solid rgba(14, 10, 10, 0.3);
+}
+/* products */
 #product1{
     display: flex;
     justify-content: space-around;
     width: 100%;
+    margin-top: 30px;
 }
 #product2{
     display: flex;
