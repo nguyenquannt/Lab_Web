@@ -1,3 +1,6 @@
+body{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 #wrapper{
     display: flex;
     flex-direction: column;
@@ -26,13 +29,32 @@
     display: flex;
     justify-content: space-around;
 }
-#input{
-    border-radius: 5%;
-    border: 2px solid rgba(14, 10, 10, 0.3);
+.input{
+    border-radius: 5px;
+    border: 1px solid rgba(14, 10, 10, 0.3);
     font-family: 'Courier New', Courier, monospace;
     color: grey;
     margin-top: 10px;
     height: 35px;
+
+    
+    padding: 5px 10px 5px 35px;
+    /* padding bên trong */
+    /* margin bên ngoài */
+}
+#head-right-search{
+    display: flex;
+    align-items: center;
+    position: relative; 
+    /* position dùng để cố định lại vùng */
+
+}
+.bi-search{
+    position: absolute;
+    /* Nổi lên */
+    left: 10px;
+    margin-top: 8px;
+
 }
 /* banner */
 #banner{
@@ -74,15 +96,14 @@
 .sort-left-ds{
     color: rgb(69,157,122);
     text-decoration: none;
-    height: 50px;
     width: 180px;
+    padding: 15px;
     /* bỏ dấu gạch chân */
     font-size: 20px;
 }
 .sort-left-ds:hover{
     color: white;
     background-color: rgb(69,157,122);
-    height: 50px;
     width: 180px;
     border-radius: 5%;
 }
@@ -110,6 +131,9 @@
     width: 100%;
     margin-top: 30px;
 }
+#product1 h4 {
+    cursor: pointer;
+}
 #product2{
     display: flex;
     justify-content: space-around;
@@ -120,6 +144,17 @@
     justify-content: space-around;
     width: 100%;
 }
+.prd1{
+    position: relative; 
+    /* cố định */
+}
+.cart{
+    position: absolute;
+    right: 0;
+    /* canh qua bên phải */
+    bottom: 10px;
+}
+/*  */
 #number-page{
     display: flex;
     justify-content: space-around;
@@ -135,6 +170,7 @@
 .num-page-ds{
     text-decoration: none;
     color: black;
+    padding: 5px;
 
 }
 .num-page-ds:hover{
@@ -143,8 +179,7 @@
     justify-content: center;
     text-align: center;
 
-    height: 25px;
-    width: 25px;
+    padding: 5px 10px;
     background-color:grey;
     border-radius: 50%;
 }
