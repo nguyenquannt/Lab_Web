@@ -72,14 +72,13 @@ body{
 }
 .text-banner{
     font-size: 25px;
-    position:absolute;
     top:38%; 
     left:10%;
     color: rgb(130,125,122);
+    position:absolute;
 }
 /* sort */
 #sort{
-    /* margin-top: 10px; */
     padding-top: 40px;
     display: flex;
     justify-content: space-around;
@@ -111,12 +110,21 @@ body{
     display: flex;
     justify-content: space-around;
     width: 20%;
+    position: relative; 
 }
 #text-sort-right{
     border-radius: 5%;
     border: 2px solid rgba(14, 10, 10, 0.2);
     font-family: 'Courier New', Courier, monospace;
     color: grey;
+    padding: 5px 10px 5px 45px;
+}
+.bi-bi-search{
+    position: absolute;
+    /* Nổi lên */
+    left: 20px;
+    margin-top: 22px;
+
 }
 .button{
     width: 100px;
@@ -144,7 +152,7 @@ body{
     justify-content: space-around;
     width: 100%;
 }
-.prd1{
+.prd1, .prd2, .prd3{
     position: relative; 
     /* cố định */
 }
