@@ -1,0 +1,136 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+/*  */
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+/*  */
+#center {
+    width: 910px;
+    /* background-color: bisque; */
+    padding-left: 40px;
+    position: relative;
+    /* display: flex;
+    flex-direction: column; */
+}
+#center1{
+    display: flex;
+    justify-content: flex-start;
+}
+.center-time{
+    margin: 8px;
+    /* background-color: rgb(227,77,115); */
+}
+/*  */
+#face-main{
+    /* left: 40px; */
+    margin-top: 35px;
+    position: relative;
+    /* khung cố định */
+}
+#big-face-main{
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.big-face-main-mic{
+    position: absolute;
+    /* nổi lên */
+    right: 80px;
+    top: 15px;
+}
+.face-name-main{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    width: 100%;
+}
+/*  */
+#box-face{
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+#box1, #box2, #box3{
+    left: -12px;
+    position: relative;
+}
+#mic1, #mic2, #mic3{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#box2{
+     left: -25px;
+}
+#box3{
+
+     left: -40px;
+}
+#face1, #face2, #face3{
+    border-radius: 10px;
+}
+/*  */
+#function-center{
+    display: flex;
+    justify-content: space-around;
+    width: 52%;
+    margin:auto
+}
+#right {
+    width: 440px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+#right1-top-title{
+    display: flex;
+    justify-content: space-around;
+}
+/* #right1{
+    display: flex;
+    flex-direction: column;
+} */
+#right1-member{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#icon-member{
+    width: 32px;
+    height: 32px;
+}
+#left {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 32px;
+    margin-top: 50px;
+}
+
+#setting {
+    margin-top: 36px;
+}
